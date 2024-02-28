@@ -1,0 +1,137 @@
+31 January 2024
+v1.0.3
+Implement features of phase 3 revision
+Supported custom features suggested by client
+
+12 December 2022
+v1.0.2
+Fixed I2C test issue in reference code
+Fixed license headers
+
+05 December 2022
+v1.0.1
+Corrected issue wit IBI data transfer
+Corrected issue with sdr and IBI tests
+
+18 November 2022
+v 1.0.0
+Dual role I3C Controller
+Enable flow control NACK/ACK feature
+IBI support in target mode
+Support for SETAASA CCC
+Word level access to TX?RX FIFO in target mode 
+
+05 May 2021
+v 0.9.17
+Changed license header to bsd for reference code
+
+23 December 2019
+v 0.9.16
+C++ compatibility defines
+
+23 April 2019
+v 0.9.15
+
+31 January 2019
+v 0.9.14
+Fixed waiver for HIS's CALLING metric
+Fixed HDR command payload size calculation
+
+28 December 2018
+v 0.9.13
+Safety manual part added to User Guide.
+Used waivers report added.
+
+30 August 2018
+v 0.9.12
+Changed error codes.
+
+23 July 2018
+v 0.9.11
+Added IBIR and CMDR threshold support.
+Added separate SIR configuration API.
+
+29 May 2018
+v 0.9.10
+Fixed prescalers configuration.
+Added support for GETMXDS command.
+
+7 May 2018
+v 0.9.9
+Fixed interrupt handling.
+
+28 March 2018
+v 0.9.8
+Added driver auto-configuration.
+
+8 March 2018
+v 0.9.7
+Added slave mode interrupts.
+
+27 February 2018
+v 0.9.6
+Added command response support.
+Added ibi response support.
+
+23 February 2018
+v 0.9.5
+Fixed SDR and DDR payload handling.
+Upgraded code quality (MISRA, HIS).
+
+29 December 2017
+v 0.9.4
+Updated the driver to work with current I3C hardware.
+
+15 Novermber 2017
+v 0.9.3
+Added ASF support.
+
+15 September 2017
+v 0.9.2
+Added data FIFO threshold support.
+Added command FIFO threshold support.
+
+12 June 2017
+v 0.9.1
+Fixed issue regarding comments.
+
+16 May 2017
+v 0.9.0
+Added Secondary Master functionality.
+Added In-Band Interrupt support.
+Added Hot-Join support.
+
+14 Apr 2017
+v 0.8.1
+Updated license.
+
+20 Apr 2016
+v 0.3.0
+Added 64-bit commands support.
+Updates related to IP changes.
+New driver package format.
+
+8 Mar 2016
+v 0.2.0
+
+Upcomming changes:
+- New Command handling.
+    - send_message will now take ponter to the message struct
+    - sending multiple messages at once
+    - message queue will be added
+- Command format changes due to changes in the IP
+    - Command word will now be 64-bit long
+- Reduced access to the interrupt handling by the user
+    - More generic callbacks will be provided
+
+08 Mar 2016
+v 0.2.0
+Changes related to IP update.
+
+29 Feb 2016
+v 0.1.0
+First release.
+
+02 Dec 2015
+v 0.0.1
+Initial version.

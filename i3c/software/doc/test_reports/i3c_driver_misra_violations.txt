@@ -1,0 +1,19 @@
+Num;Rule;Comment
+1000;MISRAC2012-RULE_5_4-c;The macro 'MIPI__SLV_PROTOCOL_ERROR_TYPE__S6_ERROR_GETCCC_WOSET' has the same name (or the first 31 characters of the name) as the macro defined in line 2087
+1000;MISRAC2012-RULE_1_1-c;More than 31 initial characters in a macro name: 35
+0117;MISRAC2012-RULE_5_4-d;The macro 'MIPI__ASF_PROTOCOL_FAULT_STATUS__ASF_PROTOCOL_FAULT_SLV_SDR_RD_ABORT_STATUS_WOSET' has the same name (or the first 63 characters of the name) as the macro defined in line 3630
+0114;MISRAC2012-RULE_1_1-d;More than 63 initial characters in a macro name: 81
+0029;MISRAC2012-DIR_4_8-a;Consider hiding the implementation of the structure 'MIPI_I3cRegs_s' in a translation unit 'i3c_sanity.c'
+0023;MISRAC2012-RULE_12_2-a;Shifting operation should be enclosed with if checking that RHS operand does not exceed the upper limit (one less than the width in bits of the underlying type of the LHS operand)
+0017;MISRAC2012-RULE_8_7-a;The function 'I3C_GroupDescriptorsSF' is referenced only in the translation unit where it is defined
+0007;MISRAC2012-RULE_8_13-a;Pass parameter &quot\;pd&quot\; with const specifier
+0007;MISRAC2012-RULE_13_5-a;Do not use expressions with side effects in the right-hand operand of a logical '&amp\;&amp\;' operator
+0003;MISRAC2012-DIR_4_4-a;Section of code should not be 'commented out'
+0002;MISRAC2012-RULE_8_3-b;Identifiers given in declaration of 'I3C_CmdAddSetGroupAddr' function (file: 'i3c_if.h', line: '1093') are: 'grpaddr' not: 'grpAddr'
+0001;MISRAC2012-RULE_2_2-b;Value of &quot\;cmd&quot\; is never used
+0001;MISRAC2012-RULE_14_4-a;Test of a value against zero should be made explicit
+0001;MISRAC2012-RULE_1_1-a;More than 31 initial characters in an internal identifier: 32
+0001;MISRAC2012-RULE_10_8-a;Composite expression with 'unsigned' essential type category and size of '8' bits shall not be cast to wider essential type of '64' bits
+0001;MISRAC2012-RULE_10_6-a;The value of a composite expression (8 bit essential type) is assigned to an object with wider essential type (16 bit)
+0001;MISRAC2012-RULE_10_1-a;The first operand of the conditional operator '?:' should have essentially Boolean type
+0001;MISRAC2012-DIR_4_1-k;Integer overflow: value of (pd->rx_fifo_used -= 4) will be 65,532 instead of -4 (result type: 16 bits, unsigned, min: 0, max: 65,535)

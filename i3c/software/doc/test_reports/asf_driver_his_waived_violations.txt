@@ -1,0 +1,10 @@
+Num;File;Checker;Rule
+38;/asf/core_driver/src/asf.c;METRICS-36;HIS 1.3.1 Metric CALLING
+51;/asf/core_driver/src/asf.c;METRICS-36;HIS 1.3.1 Metric CALLING
+621;/asf/core_driver/src/asf.c;METRICS-36;HIS 1.3.1 Metric CALLING
+99;/asf/core_driver/src/asf_sanity.c;METRICS-36;HIS 1.3.1 Metric CALLING
+99;/asf/core_driver/src/asf_sanity.c;METRICS-41;HIS 1.3.1 Metric COMF
+136;/asf/core_driver/src/asf_sanity.c;METRICS-41;HIS 1.3.1 Metric COMF
+48;/asf/core_driver/src/asf_sanity.h;METRICS-36;HIS 1.3.1 Metric CALLING
+109;/asf/core_driver/common/cps_drv.h;METRICS-36;HIS 1.3.1 Metric CALLING
+119;/asf/core_driver/common/cps_drv.h;METRICS-36;HIS 1.3.1 Metric CALLING

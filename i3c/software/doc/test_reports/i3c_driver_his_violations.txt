@@ -1,0 +1,6 @@
+Num;Rule;Comment
+0003;METRICS-41;Number of blocks of comments per statement in the function 'I3C_SetSdrFifoFlush' : 0.2
+0003;METRICS-39;The value of VOCF metric for function 'I3C_SlaveModeRequestIbi' should not be higher than 4: VOCF = 4.24
+0002;METRICS-40;Avoid statements nested deeper than 4 levels
+0001;METRICS-37;Function 'I3C_CmdAddSetGroupAddr' calls 10 different functions
+0001;METRICS-18;Function 'i3cs_process_config_interrupts' has high Cyclomatic Complexity value: 17
